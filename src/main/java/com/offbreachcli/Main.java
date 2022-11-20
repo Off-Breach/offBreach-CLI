@@ -31,7 +31,9 @@ public class Main {
         String senhaUser = dbConnection.getSenha();
 
 
+
         if (emailUser.equals(email) && senhaUser.equals(senha)) {
+            data.setHostname();
             dbConnection.fkClinica = dbConnection.getFkClinica();
             dbConnection.saveHardwareData();
             data.cadastrarSistema();
