@@ -1,0 +1,7 @@
+com\offbreachcli\User.class
+com\offbreachcli\Main.class
+com\offbreachcli\HardwareData.class
+com\offbreachcli\DatabaseConnection.class
+com\offbreachcli\SqlServerConnection.class
+com\offbreachcli\DetectorUso.class
+com\offbreachcli\SqlLocalConnection.class
