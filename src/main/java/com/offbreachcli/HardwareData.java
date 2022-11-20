@@ -3,8 +3,7 @@ package com.offbreachcli;
 
 import com.github.britooo.looca.api.core.Looca;
 import com.github.britooo.looca.api.group.discos.Disco;
-import com.github.britooo.looca.api.group.discos.DiscosGroup;
-import com.github.britooo.looca.api.group.discos.Volume;
+import com.github.britooo.looca.api.group.discos.DiscoGrupo;
 import com.github.britooo.looca.api.group.memoria.Memoria;
 import com.github.britooo.looca.api.group.processador.Processador;
 import com.github.britooo.looca.api.group.sistema.Sistema;
@@ -23,7 +22,7 @@ public class HardwareData {
     private final Looca looca = new Looca();
     private final Sistema sistema = looca.getSistema();
     private String hostname = "";
-    private final DiscosGroup discos = looca.getGrupoDeDiscos();
+    private final DiscoGrupo discos = looca.getGrupoDeDiscos();
     private final Memoria memoria = looca.getMemoria();
 
     public void cadastrarSistema() {
